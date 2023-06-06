@@ -1,0 +1,34 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "A library that allows logging to ECS structured Kibana instances",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acypert/{name}.git"
+  },
+  "keywords": [],
+  "author": "Antonio Cypert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acypert/{name}/issues"
+  },
+  "homepage": "https://github.com/acypert/{name}#readme",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-godaddy": "^7.0.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  }
+}

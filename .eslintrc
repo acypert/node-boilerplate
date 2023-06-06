@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": "godaddy",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "quote-props": ["error", "as-needed"]
+  }
+}
